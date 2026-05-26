@@ -1,16 +1,47 @@
 /* mobile.css - loads only on screens <= 768px */
+/* mobile.css */
 @media (max-width: 768px) {
-  body {
+  .container {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #taskInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  #addBtn {
+    width: 100%;
+    padding: 12px;
     font-size: 16px;
   }
 
-  .container {
-    width: 100%;
-    padding: 10px;
+  #taskList {
+    padding: 0;
+    margin-top: 15px;
   }
 
-  .todo-item {
-    flex-direction: column;
-    align-items: flex-start;
+  #taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    word-break: break-word;
   }
 }
