@@ -3,7 +3,7 @@
 A simple task manager built with vanilla JavaScript. No frameworks, no dependencies.
 
 **Live Demo:** https://chisunez.github.io/todo-app
-
+![Screenshot](screenshot.png)
 ## Features
 - Add, delete, and mark tasks as done
 - Data saved in browser localStorage
